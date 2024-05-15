@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from policy.minkowski.resnet import ResNet14
+from rise_policy.minkowski.resnet import ResNet14
 
 
 class Sparse3DEncoder(torch.nn.Module):

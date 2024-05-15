@@ -1,1 +1,1 @@
-from policy.policy import RISE
+from rise_policy.policy import RISE

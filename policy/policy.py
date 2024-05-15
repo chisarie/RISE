@@ -3,9 +3,9 @@ import torch.nn as nn
 from torch.nn import functional as F
 import torchvision.transforms as transforms
 
-from policy.tokenizer import Sparse3DEncoder
-from policy.transformer import Transformer
-from policy.diffusion import DiffusionUNetPolicy
+from rise_policy.tokenizer import Sparse3DEncoder
+from rise_policy.transformer import Transformer
+from rise_policy.diffusion import DiffusionUNetPolicy
 
 
 class RISE(nn.Module):
